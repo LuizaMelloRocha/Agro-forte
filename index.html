@@ -7,68 +7,84 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
-        body { line-height: 1.6; color: #333; }
-        header { background-color: #2E7D32; color: white; padding: 20px; text-align: center; }
-        header img { width: 120px; margin-bottom: 10px; }
-        header ul { list-style: none; }
-        header li { margin: 5px 0; }
-        section { padding: 50px 20px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; }
-        .conteudo { flex: 1 1 400px; padding: 20px; max-width: 600px; }
-        .imagem { flex: 1 1 400px; max-width: 500px; padding: 20px; }
-        h2 { color: #2E7D32; margin-bottom: 20px; }
-        p { margin-bottom: 15px; }
-        .estudante { background-color: #f5f5f5; text-align: center; padding: 50px 20px; }
-        .estudante-titulo { color: #2E7D32; margin-bottom: 40px; }
-        .estudante-todos { display: flex; justify-content: center; flex-wrap: wrap; gap: 30px; }
-        .estudante-div { background: white; padding: 20px; border-radius: 10px; width: 200px; box-shadow: 0px 2px 10px rgba(0,0,0,0.1); }
-        .estudante-imagem { width: 100%; border-radius: 50%; margin-bottom: 10px; }
-        .estudante-nome { margin-bottom: 10px; font-weight: 600; }
-        .estudante-icone { width: 24px; margin: 0 5px; }
-        footer { background-color: #2E7D32; color: white; text-align: center; padding: 20px; }
-        @media(max-width: 900px){ section { flex-direction: column; } }
-    </style>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <header>
-        <img src="img/logo-agro.png" alt="Logo Agro">
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="img/logo-agro.png" alt="Uso racional da água">
         <ul>
-            <li>💧 Uso Racional da Água na Produção</li>
-            <li>🌱 Sustentabilidade e Tecnologia no Campo</li>
+            <li class="cabecalho-lista-item">💧 Uso Racional da Água no Agro</li>
+            <li class="cabecalho-lista-item">🌱 Sustentabilidade e Eficiência</li>
         </ul>
+    
+        <div id="acessibilidade" class="menu-acessibilidade">
+            <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao">Acessibilidade</button>
+            <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+                <button id="aumentar-fonte" class="btn btn-primary fw-bold">A+</button>
+                <button id="diminuir-fonte" class="btn btn-primary fw-bold">A-</button>
+                <button id="alterna-contraste" class="btn btn-primary fw-bold">Alto contraste</button>
+            </div>
+        </div>
     </header>
 
-    <section>
-        <div class="conteudo">
-            <h2>Importância da Água na Agricultura</h2>
-            <p>A água é um recurso essencial para a produção de alimentos. Seu uso correto garante produtividade e preservação ambiental. Técnicas eficientes evitam desperdícios e ajudam a manter os recursos hídricos para futuras gerações.</p>
+    <!-- Seção de Introdução sobre o Agro e Sustentabilidade -->
+    <section class="agro">
+        <div class="agro-div-conteudo">
+            <h2 class="agro-titulo">Produzir com Sustentabilidade</h2>
+            <p class="agro-texto-um">
+                O agronegócio é um dos pilares do desenvolvimento econômico e da segurança alimentar. No entanto, o crescimento da produção deve caminhar junto com a preservação dos recursos naturais. O futuro do agro depende do equilíbrio entre produtividade, inovação e sustentabilidade.
+            </p>
+            <h3 class="agro-subtitulo">Nossa Missão</h3>
+            <p class="agro-texto-dois">
+                Promover práticas agrícolas responsáveis que garantam alimentos de qualidade para as gerações atuais e futuras, respeitando o meio ambiente e valorizando as comunidades rurais.
+            </p>
         </div>
-        <img class="imagem" src="img/agua-campo.jpg" alt="Água na agricultura">
+        <img class="agro-imagem" src="img/agua-campo.jpg" alt="Uso racional da água">
     </section>
 
-    <section>
-        <div class="conteudo">
-            <h2>Técnicas de Uso Racional</h2>
-            <p>Algumas práticas ajudam a economizar água na agricultura:</p>
-            <ul>
-                <li>Irrigação por gotejamento ou microaspersão;</li>
-                <li>Reuso de água da chuva;</li>
-                <li>Monitoramento do solo para medir a umidade;</li>
-                <li>Planejamento de culturas e rotação de plantio.</li>
-            </ul>
+    <!-- Seção 1: Importância da Água -->
+    <section class="agro">
+        <div class="agro-div-conteudo">
+            <h2 class="agro-titulo">A Água é Essencial para o Agro</h2>
+            <p class="agro-texto-um">
+                A água é um recurso vital para a produção agrícola. O uso eficiente garante produtividade, preservação ambiental e alimentos de qualidade.
+            </p>
+            <p class="agro-texto-dois">
+                Promover práticas agrícolas que economizam água ajuda a manter os recursos hídricos para as gerações futuras.
+            </p>
         </div>
-        <img class="imagem" src="img/irrigacao-gotejamento.jpg" alt="Irrigação por gotejamento">
+        <img class="agro-imagem" src="img/agua-campo.jpg" alt="Irrigação eficiente">
     </section>
 
-    <section>
-        <div class="conteudo">
-            <h2>Tecnologia a Favor da Sustentabilidade</h2>
-            <p>Drones, sensores de solo e softwares de monitoramento ajudam o produtor a aplicar água somente onde é necessário, aumentando a eficiência e reduzindo o desperdício.</p>
+    <!-- Seção 2: Técnicas Sustentáveis -->
+    <section class="agro">
+        <div class="agro-div-conteudo">
+            <h2 class="agro-titulo">Técnicas Sustentáveis de Irrigação</h2>
+            <p class="agro-texto-um">
+                Métodos eficientes incluem irrigação por gotejamento, microaspersão, coleta de água da chuva e monitoramento da umidade do solo.
+            </p>
+            <p class="agro-texto-dois">
+                Essas técnicas reduzem o desperdício e aumentam a eficiência na produção agrícola.
+            </p>
         </div>
-        <img class="imagem" src="img/tecnologia-agua.jpg" alt="Tecnologia para economia de água">
+        <img class="agro-imagem" src="img/irrigacao-gotejamento.jpg" alt="Irrigação por gotejamento">
     </section>
 
+    <!-- Seção 3: Tecnologia no Campo -->
+    <section class="agro">
+        <div class="agro-div-conteudo">
+            <h2 class="agro-titulo">Tecnologia a Favor da Água</h2>
+            <p class="agro-texto-um">
+                Drones, sensores de solo e softwares de monitoramento permitem aplicar água somente onde é necessário, aumentando a eficiência e reduzindo desperdícios.
+            </p>
+            <p class="agro-texto-dois">
+                A inovação tecnológica é a chave para um agro sustentável e consciente.
+            </p>
+        </div>
+        <img class="agro-imagem" src="img/tecnologia-agua.jpg" alt="Tecnologia para economia de água">
+    </section>
+
+    <!-- Seção Estudantes -->
     <section class="estudante">
         <h2 class="estudante-titulo">Desenvolvedores do Projeto</h2>
         <div class="estudante-todos">
@@ -87,8 +103,11 @@
         </div>
     </section>
 
-    <footer>
+    <footer class="rodape">
+        <img class="rodape-imagem" src="logo.png" alt="Logo">
         <p>© 2026 Uso Racional da Água na Produção Agrícola</p>
     </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
