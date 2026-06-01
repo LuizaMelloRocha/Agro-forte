@@ -3,75 +3,185 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css">
-    <title>Agro forte futuro sustentável</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background-color: #2E7D32;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            width: 120px;
+            margin-bottom: 10px;
+        }
+
+        header ul {
+            list-style: none;
+        }
+
+        header li {
+            margin: 5px 0;
+        }
+
+        section {
+            padding: 50px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .agro-div-conteudo {
+            flex: 1 1 400px;
+            padding: 20px;
+            max-width: 600px;
+        }
+
+        .agro-imagem {
+            flex: 1 1 400px;
+            max-width: 500px;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #2E7D32;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        .estudante {
+            background-color: #f5f5f5;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .estudante-titulo {
+            color: #2E7D32;
+            margin-bottom: 40px;
+        }
+
+        .estudante-todos {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .estudante-div {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 200px;
+            box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .estudante-imagem {
+            width: 100%;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .estudante-nome {
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .estudante-icone {
+            width: 24px;
+            margin: 0 5px;
+        }
+
+        footer {
+            background-color: #2E7D32;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media(max-width: 900px) {
+            section {
+                flex-direction: column;
+            }
+        }
+    </style>
 </head>
 <body>
-    <header class="cabecalho">
-        <img class="cabecalho-imagem" src="c" alt="logo referente ao tema proposto">
+    <header>
+        <img src="img/logo-agro.png" alt="Logo Agro Forte">
         <ul>
-            <li class="cabecalho-lista-item">Agro forte, futuro sustentável</li>
-            <li class="cabecalho-lista-item">Equilíbrio entre produção e meio ambiente</li>
+            <li>🌱 Agro Forte, Futuro Sustentável</li>
+            <li>🌎 Produção Responsável e Preservação Ambiental</li>
         </ul>
-    
-     <div id="acessibilidade" class="menu-acessibilidade" >
-            <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao">Acessibilidade</button>
-            <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista ">
-                <button  id="aumentar-fonte" class="btn btn-primary fw-bold">A+</button>
-                <button  id="diminuir-fonte" class="btn btn-primary fw-bold">A-</button>
-                <button  id="alterna-contraste" class="btn btn-primary fw-bold" >Alto contraste</button>
+    </header>
+
+    <section>
+        <div class="agro-div-conteudo">
+            <h2>Agro Forte, Futuro Sustentável</h2>
+            <p>O agronegócio é fundamental para a produção de alimentos, geração de empregos e desenvolvimento econômico. O crescimento da produção deve ocorrer de forma responsável, respeitando os recursos naturais e garantindo qualidade de vida para as futuras gerações.</p>
+            <p>Produzir mais com menos impacto ambiental é um dos principais objetivos do agro moderno.</p>
+        </div>
+        <img class="agro-imagem" src="img/Ronodonópolis_colheita_soja_(Roosevelt_Pinheiro)_28mar09.jpg" alt="Colheita de soja">
+    </section>
+
+    <section>
+        <div class="agro-div-conteudo">
+            <h2>Equilíbrio entre Produção e Meio Ambiente</h2>
+            <p>A sustentabilidade no campo envolve práticas que preservam o solo, a água e a biodiversidade. Técnicas como rotação de culturas, plantio direto e recuperação de áreas degradadas ajudam a manter a produtividade sem comprometer o meio ambiente.</p>
+            <p>O equilíbrio entre desenvolvimento econômico e conservação ambiental é essencial para um futuro sustentável.</p>
+        </div>
+        <img class="agro-imagem" src="img/agricultura-sustentavel.jpg" alt="Agricultura sustentável">
+    </section>
+
+    <section>
+        <div class="agro-div-conteudo">
+            <h2>Tecnologia e Inovação no Campo</h2>
+            <p>A tecnologia está transformando a agricultura. Drones, sensores, sistemas de irrigação inteligentes e monitoramento por satélite permitem aumentar a eficiência da produção e reduzir desperdícios.</p>
+            <p>Com inovação e responsabilidade ambiental, o agro brasileiro se fortalece como referência mundial em produção sustentável.</p>
+        </div>
+        <img class="agro-imagem" src="img/tecnologia-agro.jpg" alt="Tecnologia no campo">
+    </section>
+
+    <section class="estudante">
+        <h2 class="estudante-titulo">Desenvolvedores do Projeto</h2>
+        <div class="estudante-todos">
+            <div class="estudante-div">
+                <img class="estudante-imagem" src="Marcelo.jpeg" alt="Foto de Marcelo">
+                <h3 class="estudante-nome">Marcelo</h3>
+                <a href="https://github.com/marcelopaludetto"><img class="estudante-icone" src="github.png" alt="GitHub"></a>
+                <a href="https://instagram.com/marcelopaludetto"><img class="estudante-icone" src="instagram.png" alt="Instagram"></a>
+            </div>
+            <div class="estudante-div">
+                <img class="estudante-imagem" src="a.jpeg" alt="Foto do estudante">
+                <h3 class="estudante-nome">Integrante</h3>
+                <a href="#"><img class="estudante-icone" src="github.png" alt="GitHub"></a>
+                <a href="#"><img class="estudante-icone" src="instagram.png" alt="Instagram"></a>
             </div>
         </div>
-  </header>
-    <section class="agro">
-        <div class="agro-div-conteudo">
-            <h2 class="agro-titulo">Sobre o tema proposto</h2>
-            <p class="agro-texto-um">Os antecedentes históricos do Colégio Estadual Edite Cordeiro Marques – Ensino de 1º e 2º Graus, inicia-se aproximadamente em 1932, com classe de alfabetização em casa particular de Frida Rickli Naiverth; em 1938/39, criou-se a Escola Pública Municipal do Rio Turvo, com professores Municipais e Estaduais; em 26/05/71, através do Decreto nº 408, criou-se o Grupo Escolar do Distrito de Turvo.</p>
-            <p class="agro-texto-dois">Endereço: Av. Nossa Sra. Aparecida, s/n, Centro, Turvo  - PR, 85150-000  Telefone:(42) 3642-1210 </p>
-        </div>
-        <img class="agro-imagem" src="img/Ronodonópolis_colheita_soja_(Roosevelt_Pinheiro)_28mar09.jpg" alt="">
     </section>
-    <section class="agro">
-        <div class="agro-div-conteudo">
-            <h2 class="agro-titulo">Sobre o tema proposto</h2>
-            <p class="agro-texto-um">Os antecedentes históricos do Colégio Estadual Edite Cordeiro Marques – Ensino de 1º e 2º Graus, inicia-se aproximadamente em 1932, com classe de alfabetização em casa particular de Frida Rickli Naiverth; em 1938/39, criou-se a Escola Pública Municipal do Rio Turvo, com professores Municipais e Estaduais; em 26/05/71, através do Decreto nº 408, criou-se o Grupo Escolar do Distrito de Turvo.</p>
-            <p class="agro-texto-dois">Endereço: Av. Nossa Sra. Aparecida, s/n, Centro, Turvo  - PR, 85150-000  Telefone:(42) 3642-1210 </p>
-        </div>
-        <img class="agro-imagem" src="Ronodonópolis_colheita_soja_(Roosevelt_Pinheiro)_28mar09.jpg" alt="">
-    </section>
-    <section class="agro">
-        <div class="agro-div-conteudo">
-            <h2 class="agro-titulo">Sobre o tema proposto</h2>
-            <p class="agro-texto-um">Os antecedentes históricos do Colégio Estadual Edite Cordeiro Marques – Ensino de 1º e 2º Graus, inicia-se aproximadamente em 1932, com classe de alfabetização em casa particular de Frida Rickli Naiverth; em 1938/39, criou-se a Escola Pública Municipal do Rio Turvo, com professores Municipais e Estaduais; em 26/05/71, através do Decreto nº 408, criou-se o Grupo Escolar do Distrito de Turvo.</p>
-            <p class="agro-texto-dois">Endereço: Av. Nossa Sra. Aparecida, s/n, Centro, Turvo  - PR, 85150-000  Telefone:(42) 3642-1210 </p>
-        </div>
-        <img class="agro-imagem" src="Ronodonópolis_colheita_soja_(Roosevelt_Pinheiro)_28mar09.jpg" alt="">
-    </section>
-    <section class="estudante">
-        <h2 class="estudante-titulo">Quem são nossos estudantes?</h2>
-        <div class="estudante-todos">
-       
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto do marcelo">
-            <h3 class="estudante-nome">Marcelo</h3>
-            <a href="https://github.com/marcelopaludetto"><img class="estudante-icone" src="github.png" alt="icone github"></a>
-            <a href="https://instagram.com/marcelopaludetto"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
-        </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="a.jpeg" alt="foto do ">
-            <h3 class="estudante-nome">Marcelo</h3>
-            <a href="https://github.com/marcelopaludetto"><img class="estudante-icone" src="github.png" alt="icone github"></a>
-            <a href="https://instagram.com/marcelopaludetto"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
-        </div>
-        
-    </div>
-    </section>
-    <footer class="rodape">
-        <img class="rodape-imagem"src="logo.png" alt="logo ">
+
+    <footer>
+        <p>© 2026 Agro Forte, Futuro Sustentável</p>
     </footer>
-     <script src="main.js"></script>
 </body>
 </html>
