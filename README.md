@@ -90,8 +90,8 @@ casa.jpg  Retirado do site wikimedia Commons ()
 campo.jpg
 
 👨‍🎓 Autoria
-Autor(a): Nome do(a) estudante
-Professor(a) orientador(a): Nome do(a) professor(a)
+Autor(a): Luiza Mello da Rocha
+Professor(a) orientador(a): Alexandra Terezinha Kapusinski
 Escola: Nome da instituição de ensino
 Município: Guarapuava – Paraná
 
