@@ -94,6 +94,10 @@ casa.jpg  Retirado do site wikimedia Commons:
 [[File:Sisteme-de-irigatie.jpg|Sisteme-de-irigatie]]
 campo.jpg:
 Sisteme-de-irigatie.jpg
+casa.jpg  Retirado do site wikimedia Commons:
+[[File:Irrigation through sprinkler.jpg|Irrigation_through_sprinkler]]
+campo.jpg:
+Irrigation through sprinkler.jpg
 
 
 👨‍🎓 Autoria
