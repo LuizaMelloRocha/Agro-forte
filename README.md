@@ -90,6 +90,11 @@ casa.jpg  Retirado do site wikimedia Commons:
 [[File:PivotIrrigationOnCotton.jpg|PivotIrrigationOnCotton]]
 campo.jpg:
 PivotIrrigationOnCotton.jpg
+casa.jpg  Retirado do site wikimedia Commons:
+[[File:Sisteme-de-irigatie.jpg|Sisteme-de-irigatie]]
+campo.jpg:
+Sisteme-de-irigatie.jpg
+
 
 👨‍🎓 Autoria
 Autor(a): Luiza Mello da Rocha
