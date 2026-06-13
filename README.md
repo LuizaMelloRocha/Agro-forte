@@ -86,8 +86,10 @@ Menu de acessibilidade com controle de fonte e contraste;
 Sincronização de acessibilidade com a seção da HQ incorporada.
 
 🖼️ Galeria de Imagens
-casa.jpg  Retirado do site wikimedia Commons ()
-campo.jpg
+casa.jpg  Retirado do site wikimedia Commons:
+[[File:PivotIrrigationOnCotton.jpg|PivotIrrigationOnCotton]]
+campo.jpg:
+PivotIrrigationOnCotton.jpg
 
 👨‍🎓 Autoria
 Autor(a): Luiza Mello da Rocha
