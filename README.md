@@ -93,9 +93,14 @@ casa.jpg  Retirado do site wikimedia Commons:
 campo.jpg:
 Sisteme-de-irigatie.jpg
 casa.jpg  Retirado do site wikimedia Commons:
+[[File:Water Spraying on Farm - Agricultural Irrigation in Colorado.jpg|Water_Spraying_on_Farm_-_Agricultural_Irrigation_in_Colorado]]
+campo.jpg:
+Water Spraying on Farm - Agricultural Irrigation in Colorado.jpg
+casa.jpg  Retirado do site wikimedia Commons:
 [[File:Irrigation through sprinkler.jpg|Irrigation_through_sprinkler]]
 campo.jpg:
 Irrigation through sprinkler.jpg
+
 
 
 👨‍🎓 Autoria
