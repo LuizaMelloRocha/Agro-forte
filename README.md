@@ -16,8 +16,6 @@ Por meio de textos, imagens, quiz, curiosidades, vídeo e história em quadrinho
 🎯 Objetivo
 O objetivo do projeto é conscientizar os visitantes sobre a importância da produção sustentável, mostrando que o desenvolvimento econômico pode caminhar junto com o cuidado com o meio ambiente.
 
-O site busca explicar, de maneira simples e interativa, como a cadeia produtiva da cevada e do malte envolve diferentes etapas, pessoas, tecnologias e impactos positivos para a sociedade.
-
 🧭 Funcionalidades do Site
 O projeto conta com as seguintes funcionalidades:
 
@@ -107,24 +105,10 @@ Escola: Nome da instituição de ensino
 Município: Guarapuava – Paraná
 
 🖼️ Créditos dos Recursos Utilizados
-As imagens, vídeos, ícones, textos e demais recursos visuais utilizados neste projeto foram produzidos ou organizados para fins educacionais no contexto do Concurso Agrinho 2026.
+As imagens, ícones, textos e demais recursos visuais utilizados neste projeto foram produzidos ou organizados para fins educacionais no contexto do Concurso Agrinho 2026.
 
-Caso algum recurso tenha sido produzido com apoio de inteligência artificial, os prompts utilizados estão registrados abaixo.
-
-🤖 Prompts Genéricos de IA Utilizados
-🌾 Imagem Hero — Campo de cevada em Guarapuava
-Crie uma imagem realista e educativa de um campo de cevada em Guarapuava, no Paraná, com atmosfera acolhedora, luz natural suave, paisagem agrícola bem cuidada, céu limpo e sensação de conexão entre produção rural, sustentabilidade e futuro. A imagem deve transmitir equilíbrio entre o agro forte e o cuidado com o meio ambiente.
-🌱 Imagem Campo — Cultivo da cevada
-Crie uma imagem de uma lavoura de cevada em fase de crescimento, mostrando o cultivo no campo, o cuidado com o solo e a importância da agricultura sustentável. A cena deve ter cores naturais, aparência limpa, clima positivo e representar o início da cadeia produtiva do malte.
-🏭 Imagem Malte — Transformação e beneficiamento
-Crie uma imagem representando o processo de transformação da cevada em malte, com elementos que remetam à indústria, tecnologia, beneficiamento de grãos e inovação. A imagem deve mostrar a conexão entre o campo e a indústria, com visual moderno, educativo e relacionado à sustentabilidade.
-🏙️ Imagem Cidade — Campo e cidade conectados
-Crie uma imagem que represente a conexão entre o campo e a cidade por meio da cadeia produtiva do malte. A cena deve mostrar elementos urbanos integrados à produção agrícola, simbolizando como o agro movimenta a economia, abastece a sociedade e conecta diferentes espaços.
-
-🌿 Sustentabilidade e meio ambiente
-Crie uma ilustração educativa sobre sustentabilidade na produção agrícola, mostrando práticas como cuidado com o solo, uso consciente da água, tecnologia no campo e preservação ambiental. A imagem deve transmitir responsabilidade, inovação e equilíbrio entre produção e natureza.
 📚 Observação sobre o Uso de IA
-As ferramentas de inteligência artificial podem ter sido utilizadas como apoio na criação de imagens, textos ou ideias visuais do projeto.
+As ferramentas de inteligência artificial podem ter sido utilizadas como apoio na criação de textos ou ideias visuais do projeto.
 
 Todos os recursos foram utilizados com finalidade educacional, respeitando o tema do concurso e com o objetivo de tornar o aprendizado mais visual, acessível e interativo.
 
@@ -138,4 +122,4 @@ agrinho2026
 Projeto desenvolvido exclusivamente para fins educacionais e para participação no Concurso Agrinho 2026.
 
 🌟 Considerações Finais
-O projeto “Do Campo ao Copo: A Jornada do Malte em Guarapuava” busca demonstrar que a tecnologia pode ser usada como ferramenta de aprendizagem, conscientização e valorização do agronegócio sustentável.
+O projeto “Uso Racional dos Recursos Hidrícos na produção: Sustentabilidade e Tecnologia no Campo” busca demonstrar que a tecnologia pode ser usada como ferramenta de aprendizagem, conscientização e valorização do agronegócio sustentável.
