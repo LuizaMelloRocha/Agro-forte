@@ -100,7 +100,10 @@ casa.jpg  Retirado do site wikimedia Commons:
 [[File:Irrigation through sprinkler.jpg|Irrigation_through_sprinkler]]
 campo.jpg:
 Irrigation through sprinkler.jpg
-
+casa.jpg  Retirado do site wikimedia Commons:
+[[File:Center Pivot LEPA Irrigation Bubbler.jpg|Center_Pivot_LEPA_Irrigation_Bubbler]]
+campo.jpg:
+Center Pivot LEPA Irrigation Bubbler.jpg
 
 
 👨‍🎓 Autoria
